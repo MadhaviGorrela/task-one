@@ -123,7 +123,91 @@ a{
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 30px 0px;
+}
+.home-about-projects h1{
+    color: #e80566;
+}
+.news-section{
+    justify-content: center;
+    text-align: center;
+}
+.news-section h5{
+    color: #e80566;
+}
+.latest-news-content{
+    display: flex;
+}
+.animate-underline{
+    position: relative;
+    background-color: red;
+    width: 150px;
+    height: 5px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.animate-underline::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+    width: 50px;
+    animation: underline 2s linear infinite;
+    -webkit-animation: underline 2s linear infinite;
+}
+@keyframes underline{
+    0%{
+        transform: translateX(-150px);
+    }
+    100%{
+        transform: translateX(150px);
+    }
+}
+@-webkit-keyframes underline{
+    0%{
+        transform: translateX(-150px);
+    }
+    100%{
+        transform: translateX(150px);
+    }  
+}
+.latest-news-section img{
+    width: 300px;
+    height: 120px;
+    border-bottom: 2px solid #e80566;
+}
+.latest-news-section{
+    padding: 20px 20px;
+    column-gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.latest-news-section h5{
+    font-weight: 10px;
+}
+.latest-news-section h4:hover{
+    color: #e80566;
+    transition: all 0.4s ease-in-out;
+}
+.latest-news-section i{
+    color: #e80566;
+}
+.latest-news-section  h6,h4,h5{
+    padding: 10px 0px;
+}
+.news-btn{
+    background-color: #e80566;
+    color: #fff;
+    display: block;
+    margin: 50 auto;
+}
+.news-btn:hover{
+    background-color: #fff;
+    color: #e80566;
+    display: block;
 }
 .footer-section{
     display: flex;

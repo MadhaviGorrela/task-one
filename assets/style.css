@@ -128,6 +128,19 @@ a{
 .home-about-projects h1{
     color: #e80566;
 }
+.services-section{
+    justify-content: center;
+    text-align: center;
+}
+.services-section h5{
+    color: #e80566;
+}
+.services-section p{
+    padding: 20px 0px;
+    font-weight: 200;
+    font-size:large;
+    color: #666;
+}
 .news-section{
     justify-content: center;
     text-align: center;
@@ -187,6 +200,7 @@ a{
 }
 .latest-news-section h5{
     font-weight: 10px;
+    color: #666;
 }
 .latest-news-section h4:hover{
     color: #e80566;
@@ -194,9 +208,6 @@ a{
 }
 .latest-news-section i{
     color: #e80566;
-}
-.latest-news-section  h6,h4,h5{
-    padding: 10px 0px;
 }
 .news-btn{
     background-color: #e80566;
@@ -208,6 +219,9 @@ a{
     background-color: #fff;
     color: #e80566;
     display: block;
+}
+.latest-news-section  h6,h4,h5{
+    padding: 10px 0px;
 }
 .footer-section{
     display: flex;
